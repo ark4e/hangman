@@ -6,7 +6,6 @@ def hangman(word):
     win = False
 
 
-    print("Welcome to Hangman")
 
 
     while wrong_guesses < len(stages) -1:
