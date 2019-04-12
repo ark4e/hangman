@@ -10,6 +10,7 @@ def hangman(word):
 
     while wrong_guesses < len(stages) -1:
         print("\n")
+        print("Welcome to hangman!\n")
         guess = input ("Guess a letter")
         if guess in remaining_letters:
             character_index = remaining_letters.index(guess)
